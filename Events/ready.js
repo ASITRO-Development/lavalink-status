@@ -42,7 +42,7 @@ module.exports = async (client) => {
                     `Platform      :: ${process.platform}\n` +
                     `PID           :: ${process.pid}\n` +
                     `\n` + `\`\`\``)
-					.addField("Important" , `see all lavalink list [here](https://discodes.ml/lavalinks)`)
+		
             .setColor("#9966ff")
             
         .setTimestamp(Date.now());
